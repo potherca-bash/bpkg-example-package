@@ -1,5 +1,8 @@
 #!/bin/bash
 
+source 'comment.license.inc'
+source 'comment.code-style.inc'
+
 source 'declare.exit-codes.inc'
 
 VERSION=0.0.1
