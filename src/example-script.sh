@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source 'declare.exit-codes.inc'
+
 VERSION=0.0.1
 
 source 'function.usage.sh'
