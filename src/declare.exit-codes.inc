@@ -1,0 +1,2 @@
+readonly EXIT_OK=0
+readonly EXIT_UNKOWN_ERROR_OCCURRED=64
