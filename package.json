@@ -1,7 +1,7 @@
 {
   "name": "example-package",
-  "version": "0.0.1",
+  "version": "0.2.1",
   "description": "An example BPKG package.",
-  "install": "install -b example-script.sh ${PREFIX:-/usr/local}/bin/example-script",
-  "scripts": [ "example-script.sh" ]
+  "install": "install -b dist/example-script ${PREFIX:-/usr/local}/bin/example-script",
+  "scripts": [ "dist/example-script" ]
 }

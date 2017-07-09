@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ==============================================================================
-# Copyright (C) 2017 Potherca <potherca@gmail.com>
+# Copyright (C) {{ year }} {{ author }}
 # 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -33,8 +33,11 @@ set -o pipefail # Return exit status of the last command in the pipe that exited
 
 readonly EXIT_OK=0
 readonly EXIT_UNKOWN_ERROR_OCCURRED=64
+readonly EXIT_NOT_ENOUGH_PARAMETERS=66
+readonly EXIT_DIRECTORY_NOT_EXISTS=67
+readonly EXIT_NOT_A_DIRECTORY=68
 
-readonly VERSION=0.0.1
+readonly VERSION=0.2.1
 
 usage () {
     echo 'example-script [-hV]'

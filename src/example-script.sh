@@ -7,7 +7,7 @@ source 'declare.bash-options.inc'
 
 source 'declare.exit-codes.inc'
 
-readonly VERSION=0.0.1
+readonly VERSION=0.2.1
 source 'function.usage.sh'
 source 'function.example_script.sh'
 
